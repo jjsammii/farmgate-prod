@@ -28,7 +28,7 @@ st.title("Simple Prediction Tool")
 st.write("---")
 
 
-@st.cache
+@st.cache_data
 def get_data():
     #AZ_BUCKET_URL = "https://azjcsdls01.blob.core.windows.net/farmgate/"
     #df_pred = pd.read_csv(AZ_BUCKET_URL + "/predictions.csv")
